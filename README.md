@@ -8,12 +8,12 @@ Setup:
 ------
 
 The simples way to get thing running with pytest seems to be to install the
-script. To do this run the following (preferably in an virtualenv):
+script.
+To do this run the following (preferably in an virtualenv):
 
   `pip install -e .`
 
 inside the project root-folder.
-
 After this is done, the tests can be run with the command:
 
   `py.test`
