@@ -1,5 +1,5 @@
 
-from .. import parser
+from pagecounter import parser
 
 def test_book_source():
     conf = parser.config.get()
