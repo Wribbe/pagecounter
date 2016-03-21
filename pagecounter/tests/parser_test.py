@@ -1,6 +1,6 @@
 
 from .. import parser
 
-def test_hello_world():
-    correct = "Hello World"
-    assert(parser.hello_world() == correct)
+def test_book_source():
+    conf = parser.config.get()
+    assert(parser.book_source() == conf.book_source)
